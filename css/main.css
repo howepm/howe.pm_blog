@@ -1,0 +1,201 @@
+html, body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-attachment: fixed; }
+
+html {
+  margin-left: 0px;
+  margin-right: 0px;
+  border-top: 8px solid #181818;
+  background-color: #d0d0d0;
+  height: 100%; }
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14pt;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100%;
+  padding-bottom: 30px; }
+
+a {
+  text-decoration: none;
+  color: #2b7ba8;
+  font-weight: bold;
+  cursor: pointer; }
+
+a:hover {
+  color: #175376;
+  font-style: italic; }
+
+h1, h2, h3, h4, h5, .noPadMargin {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  margin-bottom: 10px; }
+  header #logoArea {
+    background-color: #181818;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px; }
+    header #logoArea .bigLetter, header #logoArea .smallLetters {
+      display: block; }
+    header #logoArea .bigLetter {
+      font-size: 62pt;
+      color: #bebebe;
+      font-family: "Pacifico", cursive; }
+    header #logoArea .smallLetters {
+      margin-top: -36px;
+      color: #787878;
+      font-family: "Yellowtail", cursive; }
+  header #logoArea:hover {
+    font-style: normal; }
+  header #logoArea, header nav {
+    float: left; }
+  header nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px; }
+    header nav #navTitle, header nav a {
+      display: block; }
+    header nav #navTitle {
+      font-weight: bold;
+      font-family: "Big Shoulders Text", cursive;
+      letter-spacing: 3px; }
+    header nav a {
+      color: #355161;
+      font-family: "Roboto Slab", serif;
+      font-weight: bold; }
+    header nav a:hover {
+      color: #54819b; }
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 80px; }
+  footer #me {
+    float: left;
+    width: 70%;
+    vertical-align: top; }
+    footer #me img {
+      width: 20%;
+      float: left; }
+    footer #me .content {
+      padding: 10px;
+      float: right;
+      width: 75%; }
+      footer #me .content .bubble, footer #me .content .tail {
+        background-color: #d2d2d2; }
+      footer #me .content .bubble {
+        padding: 8px;
+        border-radius: 10px; }
+      footer #me .content .tail {
+        border-bottom-right-radius: 20px;
+        height: 20px;
+        width: 20px;
+        margin-left: 20px; }
+        footer #me .content .tail .inside {
+          background-color: white;
+          height: 15px;
+          width: 5px;
+          border-bottom-right-radius: 15px; }
+  footer nav {
+    float: right;
+    width: 25%;
+    text-align: right; }
+    footer nav .copy, footer nav .poweredBy {
+      font-style: italic;
+      margin-bottom: 10px; }
+    footer nav .copy {
+      font-size: 11pt; }
+    footer nav .poweredBy {
+      font-size: 9pt;
+      font-weight: bold;
+      color: #969696; }
+      footer nav .poweredBy a {
+        color: #6e94a5; }
+      footer nav .poweredBy a:hover {
+        color: #3d5864; }
+    footer nav .social {
+      margin-bottom: 8px; }
+      footer nav .social a .fa {
+        background-color: #383838;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        display: inline-block;
+        margin: 5px;
+        border-radius: 5px;
+        width: 25px;
+        height: 20px;
+        text-align: center;
+        color: white; }
+      footer nav .social a .fa-facebook {
+        text-align: right;
+        background-color: #114490; }
+      footer nav .social a .fa-twitter {
+        background-color: #11b7d5; }
+
+nav#breadcrumb {
+  background-color: #d2d2d2;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 10px;
+  margin-bottom: 10px; }
+  nav#breadcrumb a {
+    color: #3b6780; }
+  nav#breadcrumb a:hover {
+    color: #699bb8; }
+
+.post {
+  margin-bottom: 15px; }
+  .post .date {
+    display: block;
+    font-size: 12pt; }
+  .post .content {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  .post .comments {
+    display: block;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    background-color: #d2d2d2;
+    text-align: right; }
+    .post .comments .fa {
+      color: #1d4962; }
+    .post .comments .comments:hover {
+      color: #699bb8; }
+      .post .comments .comments:hover .fa {
+        color: #4b7d9a; }
+
+.monoFont {
+  font-family: "Major Mono Display", monospace; }
+
+h1, h2, h3 {
+  font-family: "Big Shoulders Text", cursive; }
+
+h4, h5 {
+  font-family: "Roboto Slab", serif; }
+
+.clear {
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */
